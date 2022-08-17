@@ -1,3 +1,4 @@
+# NLP-Powered-Quote-Web-App
 <p align="center">
   <a href="https://quotes-web-app.herokuapp.com/">
     <img src="picture1.png" alt="Logo" width=200 height=400>
@@ -15,7 +16,7 @@
 </p>
 
 
-# NLP-Powered-Quote-Web-App: Project Overview
+# Project Overview
 
 
 * Created a web app that provides quotes from the internet based on your mood
