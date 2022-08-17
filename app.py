@@ -149,7 +149,7 @@ def quote_me():
     return render_template("quote.html",
         quote=quote,
         author=author,
-        current_id=current_id,)
+        current_id=current_id)
 
 if __name__ == '__main__':
     app.run()
