@@ -147,6 +147,17 @@ div.quote {
         }
     });
 
+    var thefooter = document.getElementById('footer');
+    swipedetect(thefooter, function(swipedir){
+        // swipedir contains either "none", "left", "right", "top", or "down"
+        if (swipedir === "right") {
+            document.getElementById("brighter").click();
+        }
+        else if  (swipedir === "left")  {
+            document.getElementById("darker").click();
+        }
+    });
+
 
 </SCRIPT>
 
