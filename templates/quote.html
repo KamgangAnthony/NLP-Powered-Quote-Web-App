@@ -37,9 +37,9 @@ div.quote {
 
 
 <BODY  bgcolor="#fef4e2">
-    <div id="boody">
+
 	<!-- https://www.w3schools.com/w3css/tryw3css_templates_travel2.htm# -->
-	<img src="https://manuelamunategui.pythonanywhere.com/pixel2.gif?page=www.motv.io" style="width: 1px; height: 1px" />
+
 
 
 
@@ -58,7 +58,7 @@ div.quote {
 		</div>
 	</div>
 
-</div>
+
 <footer class="w3-container w3-center w3-margin-bottom"  id="footer" >
 	<div class="w3-container w3-center">
 		<form id='myform' action="{{ url_for('quote_me') }}" method='GET'>
@@ -147,16 +147,6 @@ div.quote {
         }
     });
 
-    var boody = document.getElementById('footer');
-    swipedetect(boody, function(swipedir){
-        // swipedir contains either "none", "left", "right", "top", or "down"
-        if (swipedir === "right") {
-            document.getElementById("brighter").click();
-        }
-        else if  (swipedir === "left")  {
-            document.getElementById("darker").click();
-        }
-    });
 
 </SCRIPT>
 
