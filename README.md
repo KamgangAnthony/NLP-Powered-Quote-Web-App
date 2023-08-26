@@ -45,7 +45,7 @@ https://github.com/lukePeavey/quotable
 
 
 **Flask Productionization:**
-https://quotes-web-app.herokuapp.com/
+https://quotes-web-app-nlp-ml-powered-7d4f6b1a0e84.herokuapp.com/
 
 
 ## Scraping the quotes
